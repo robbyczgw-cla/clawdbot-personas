@@ -1,8 +1,10 @@
-# Personas 🎭
+# 🎭 Personas
 
-**Transform Clawdbot into 31 specialized AI personalities on demand.**
+### A Clawdbot Skill
 
-From coding experts to creative writers, fitness coaches to doctors - switch personalities mid-conversation to get the perfect expertise for your task.
+> Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
+
+**Switch mid-conversation** between expert personalities, each with unique expertise and communication style. Includes guided creator for custom personas.
 
 ---
 
