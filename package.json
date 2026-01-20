@@ -1,6 +1,6 @@
 {
   "name": "@clawdbot/personas",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas with guided workflow. Token-efficient, comprehensive docs included.",
   "keywords": [
     "clawdbot",
@@ -18,7 +18,7 @@
     "switch",
     "custom"
   ],
-  "author": "Robby <robby@clawdbot.com>",
+  "author": "Robby <robbyczgw@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
