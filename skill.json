@@ -2,10 +2,11 @@
   "name": "Personas",
   "emoji": "🎭",
   "description": "Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Create custom personas too!",
-  "summary": "Transform Clawdbot into 31 specialized AI personalities on demand. Switch from senior programmer to Italian chef to doctor mid-conversation. Includes guided custom persona creator.\n\n**31 Personas Across 7 Categories:**\n🦎 Core (5): Cami, Dev, Flash, Professor Stein, Chameleon Agent\n🎨 Creative (2): Luna, Mythos\n📚 Learning (3): Herr Müller, Scholar, Lingua\n🌟 Lifestyle (9): Chef Marco, Fit, Zen, Globetrotter, Wellbeing, DIY Maker, Family, Lisa Knight, The Panel\n💼 Professional (10): Social Pro, CyberGuard, DataViz, Career Coach, Legal Guide, Startup Sam, Dr. Med, Wordsmith, Canvas, Finny\n🧠 Philosophy (1): Coach Thompson\n\n**Features:**\n• Token-efficient (loads only active persona)\n• Guided 7-step creator for custom personas\n• Comprehensive documentation (README, FAQ with 50+ questions)\n• Based on Chameleon AI Chat\n\n**Usage:** `Use Dev` or `Switch to Chef Marco` or `Create a Game Master persona`",
+  "summary": "Transform Clawdbot into 31 specialized AI personalities on demand. Switch from senior programmer (Dev) to Italian chef (Chef Marco) to doctor (Dr. Med) mid-conversation. Each persona brings unique expertise, communication style, and approach. Includes guided custom persona creator for building your own. Token-efficient design loads only the active persona. Categories: Core (5), Creative (2), Learning (3), Lifestyle (9), Professional (10), Philosophy (1). Based on Chameleon AI Chat personas with comprehensive documentation.",
   "category": "ai-experience",
   "author": "Chameleon AI / Clawdbot",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "readme": "README.md",
   "tags": ["personalities", "modes", "expertise", "creative", "professional", "learning"],
   "features": [
     "31 pre-built expert personas",
