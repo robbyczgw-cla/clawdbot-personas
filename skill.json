@@ -4,7 +4,7 @@
   "description": "Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Create custom personas too!",
   "category": "ai-experience",
   "author": "Chameleon AI / Clawdbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tags": ["personalities", "modes", "expertise", "creative", "professional", "learning"],
   "features": [
     "31 pre-built expert personas",
