@@ -1,3 +1,23 @@
+---
+name: personas
+description: Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
+triggers:
+  - use persona
+  - switch to
+  - activate
+  - exit persona
+  - create persona
+categories:
+  - core
+  - creative
+  - learning
+  - lifestyle
+  - professional
+  - philosophy
+  - curator
+personas: 31
+---
+
 # Personas 🎭
 
 Transform Clawdbot into 31 specialized personalities on demand. Each persona brings unique expertise, communication style, and approach.
