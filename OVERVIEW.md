@@ -9,7 +9,7 @@
 
 ## What Is This?
 
-Transform Clawdbot into 31 specialized AI personalities on demand. Switch from a senior developer to an Italian chef to a fitness coach mid-conversation.
+Transform Moltbot into 31 specialized AI personalities on demand. Switch from a senior developer to an Italian chef to a fitness coach mid-conversation.
 
 **Example:**
 ```
@@ -34,7 +34,7 @@ Bot: "Ah, la vera carbonara! No cream, mai!..."
 personas/
 ├── README.md              # 📖 User guide (extensive, start here)
 ├── FAQ.md                 # ❓ Common questions & troubleshooting
-├── SKILL.md               # 🎯 Clawdbot skill instructions (loaded on use)
+├── SKILL.md               # 🎯 Moltbot skill instructions (loaded on use)
 ├── skill.json             # ⚙️ Metadata & persona index
 ├── INTERNAL.md            # 🔧 Developer documentation (for us)
 ├── creator-workflow.md    # 🎨 Persona creation implementation guide
@@ -60,7 +60,7 @@ personas/
 - **creator-workflow.md** - How to implement persona creation feature
 - **OVERVIEW.md** - This file (quick reference)
 
-**For Clawdbot:**
+**For Moltbot:**
 - **SKILL.md** - Loaded when skill is invoked
 - **skill.json** - Metadata for ClawdHub
 - **data/*.md** - Individual persona definitions (loaded on demand)
@@ -135,7 +135,7 @@ personas/
 
 **How it works:**
 1. User activates persona: `"Use Dev"`
-2. Clawdbot reads `data/dev.md` (~3KB)
+2. Moltbot reads `data/dev.md` (~3KB)
 3. Persona prompt loaded into context
 4. AI adopts Dev personality until switched/exited
 
@@ -200,7 +200,7 @@ See **FAQ.md** for 50+ more questions.
 - Source: [Chameleon AI Chat](https://github.com/robbyczgw-cla/Chameleon-AI-Chat)
 - License: MIT
 
-**Clawdbot Adaptation:**
+**Moltbot Adaptation:**
 - By: Robby (robbyczgw-cla)
 - License: MIT
 

@@ -1,6 +1,6 @@
 # Personas - 31 Expert AI Personalities 🎭
 
-Transform Clawdbot into specialized experts on demand. Switch from senior programmer to Italian chef to doctor mid-conversation.
+Transform Moltbot into specialized experts on demand. Switch from senior programmer to Italian chef to doctor mid-conversation.
 
 ## What You Get
 
@@ -29,6 +29,6 @@ Transform Clawdbot into specialized experts on demand. Switch from senior progra
 
 ## Based On
 
-Chameleon AI Chat personas - adapted for Clawdbot with enhanced documentation and creator workflow.
+Chameleon AI Chat personas - adapted for Moltbot with enhanced documentation and creator workflow.
 
-**GitHub:** https://github.com/robbyczgw-cla/clawdbot-personas
+**GitHub:** https://github.com/robbyczgw-cla/moltbot-personas

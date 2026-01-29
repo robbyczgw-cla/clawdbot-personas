@@ -1,6 +1,6 @@
 # 🎭 Personas
 
-### A Clawdbot Skill
+### A Moltbot Skill
 
 > Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
 
@@ -251,7 +251,7 @@ Essential personas for everyday use.
 personas/
 ├── README.md         # This file
 ├── FAQ.md            # Common questions
-├── SKILL.md          # Usage instructions (loaded by Clawdbot)
+├── SKILL.md          # Usage instructions (loaded by Moltbot)
 ├── skill.json        # Metadata & persona index
 ├── INTERNAL.md       # Developer documentation
 └── data/             # Persona definitions
@@ -294,10 +294,10 @@ personas/
 
 ## 📜 License
 
-Based on Chameleon AI Chat personas - adapted for Clawdbot.
+Based on Chameleon AI Chat personas - adapted for Moltbot.
 
 - Original: Chameleon AI (MIT License)
-- Adaptation: Clawdbot (MIT License)
+- Adaptation: Moltbot (MIT License)
 - Author: Robby / Chameleon AI Community
 
 ---
@@ -306,7 +306,7 @@ Based on Chameleon AI Chat personas - adapted for Clawdbot.
 
 - [Chameleon AI Chat](https://github.com/robbyczgw-cla/Chameleon-AI-Chat) - Original project
 - [ClawdHub](https://clawdhub.com) - Skill marketplace
-- [Clawdbot Docs](https://clawdbot.com/docs) - Framework documentation
+- [Moltbot Docs](https://moltbot.com/docs) - Framework documentation
 
 ---
 

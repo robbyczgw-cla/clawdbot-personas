@@ -28,7 +28,7 @@ This document explains the technical architecture, implementation details, and m
 personas/
 ├── README.md          # User-facing documentation (extensive guide)
 ├── FAQ.md             # Common questions and troubleshooting
-├── SKILL.md           # Clawdbot skill instructions (loaded on invocation)
+├── SKILL.md           # Moltbot skill instructions (loaded on invocation)
 ├── skill.json         # Metadata, index, and feature list
 ├── INTERNAL.md        # This file (developer documentation)
 └── data/              # Persona definitions (31 default + custom)
@@ -46,7 +46,7 @@ personas/
 ```
 User request: "Use Dev persona"
        ↓
-Clawdbot parses intent → persona activation
+Moltbot parses intent → persona activation
        ↓
 Read ~/clawd/skills/personas/data/dev.md
        ↓
@@ -112,7 +112,7 @@ Each persona `.md` file follows this structure:
 ```
 
 **Why this structure?**
-- **Consistent parsing** - Clawdbot can extract sections reliably
+- **Consistent parsing** - Moltbot can extract sections reliably
 - **LLM-friendly** - Clear headers guide model behavior
 - **Human-readable** - Easy to edit and understand
 - **Extensible** - Add custom sections as needed
@@ -125,7 +125,7 @@ Each persona `.md` file follows this structure:
   "emoji": "🎭",
   "description": "Transform into 31 specialized AI personalities...",
   "category": "ai-experience",
-  "author": "Chameleon AI / Clawdbot",
+  "author": "Chameleon AI / Moltbot",
   "version": "1.0.0",
   "tags": ["personalities", "modes", "expertise", ...],
   "features": [
@@ -160,7 +160,7 @@ Each persona `.md` file follows this structure:
 - `"Activate [persona]"`
 - `"I want [persona] mode"`
 
-**Clawdbot behavior:**
+**Moltbot behavior:**
 1. Parse persona name from user input
 2. Normalize: lowercase, replace spaces with hyphens
 3. Check if file exists: `data/{persona}.md`
@@ -376,7 +376,7 @@ Want to activate it now? (yes/no)"
 - ✅ **Lazy loading** - Only load requested persona
 - ✅ **No embedding** - Don't include all 31 in context
 - ⚠️ **Compression** - Could minify prompts, but reduces readability
-- ⚠️ **Caching** - Clawdbot could cache frequently-used personas
+- ⚠️ **Caching** - Moltbot could cache frequently-used personas
 
 **Recommendation:** Current approach is optimal. Don't over-optimize.
 
@@ -414,7 +414,7 @@ At 100 custom personas: ~425KB total (still tiny).
 - Personas are local files (user controls data/)
 - No remote persona loading
 - File permissions: user-writable only
-- Clawdbot sandboxing prevents system-level harm
+- Moltbot sandboxing prevents system-level harm
 
 **Low risk** - user shoots own foot if editing files maliciously.
 
@@ -481,7 +481,7 @@ At 100 custom personas: ~425KB total (still tiny).
 **Process:**
 1. Fork skill or submit `.md` file
 2. Review for quality, ethics, uniqueness
-3. Test in Clawdbot
+3. Test in Moltbot
 4. Merge if approved
 5. Credit contributor in README
 
@@ -535,7 +535,7 @@ Bot: *doesn't act like a programmer*
 - Validate markdown structure
 - Ensure UTF-8 encoding
 - Restore from backup if corrupted
-- Clear Clawdbot cache (if applicable)
+- Clear Moltbot cache (if applicable)
 
 ---
 
@@ -571,8 +571,8 @@ Bot: *doesn't guide through creation*
 - Custom persona creation rate (feature adoption)
 
 **Implementation:**
-- Clawdbot may log tool calls (file reads)
-- skill.json could include usage stats (if Clawdbot supports)
+- Moltbot may log tool calls (file reads)
+- skill.json could include usage stats (if Moltbot supports)
 
 ---
 
@@ -598,7 +598,7 @@ Bot: *doesn't guide through creation*
 
 ### Exporting Personas
 
-**To another Clawdbot instance:**
+**To another Moltbot instance:**
 ```bash
 # Copy entire skill
 cp -r ~/clawd/skills/personas /path/to/other/instance/skills/
@@ -622,8 +622,8 @@ cp ~/clawd/skills/personas/data/my-custom-*.md /path/to/other/data/
 # 1. Edit persona
 vim ~/clawd/skills/personas/data/dev.md
 
-# 2. Test in Clawdbot
-clawdbot
+# 2. Test in Moltbot
+moltbot
 > "Use Dev"
 > "Write a Python function to parse JSON"
 
@@ -663,7 +663,7 @@ git push origin v1.1.0
 - Coordinate with Chameleon maintainers
 - Keep adapted version in sync
 
-**To Clawdbot (this skill):**
+**To Moltbot (this skill):**
 - Fork/PR to skill repository
 - Follow code review process
 - Maintain quality standards
@@ -677,7 +677,7 @@ git push origin v1.1.0
 - Authors: Chameleon AI Community
 - License: MIT
 
-**Clawdbot Adaptation:**
+**Moltbot Adaptation:**
 - Adapter: Robby (robbyczgw-cla)
 - Modifications: Removed UI-specific elements, added creator workflow, optimized for CLI/tool use
 - License: MIT
@@ -685,11 +685,11 @@ git push origin v1.1.0
 **31 Default Personas:**
 - Adapted from Chameleon AI definitions (TypeScript → Markdown)
 - Personality prompts largely preserved
-- Communication styles adjusted for Clawdbot context
+- Communication styles adjusted for Moltbot context
 
 **Skill Framework:**
-- Platform: Clawdbot
-- Skill structure follows Clawdbot conventions
+- Platform: Moltbot
+- Skill structure follows Moltbot conventions
 - Compatible with ClawdHub publication
 
 ---

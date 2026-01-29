@@ -20,7 +20,7 @@ personas: 31
 
 # Personas 🎭
 
-Transform Clawdbot into 31 specialized personalities on demand. Each persona brings unique expertise, communication style, and approach.
+Transform Moltbot into 31 specialized personalities on demand. Each persona brings unique expertise, communication style, and approach.
 
 ## Usage
 

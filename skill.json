@@ -3,7 +3,7 @@
   "emoji": "🎭",
   "description": "31 specialized AI personalities on demand. Switch from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical) mid-conversation. Includes custom persona creator. Token-efficient, loads only active persona. Based on Chameleon AI Chat.",
   "category": "ai-experience",
-  "author": "Chameleon AI / Clawdbot",
+  "author": "Chameleon AI / Moltbot",
   "version": "1.0.8",
   "readme": "README.md",
   "tags": ["personalities", "modes", "expertise", "creative", "professional", "learning"],

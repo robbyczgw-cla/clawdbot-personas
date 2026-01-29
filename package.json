@@ -1,9 +1,9 @@
 {
-  "name": "@clawdbot/personas",
+  "name": "@moltbot/personas",
   "version": "1.0.9",
   "description": "Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas with guided workflow. Token-efficient, comprehensive docs included.",
   "keywords": [
-    "clawdbot",
+    "moltbot",
     "skill",
     "personas",
     "personalities",
@@ -22,13 +22,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/robbyczgw-cla/clawdbot-personas.git"
+    "url": "https://github.com/robbyczgw-cla/moltbot-personas.git"
   },
   "homepage": "https://clawdhub.com/robbyczgw-cla/personas",
   "bugs": {
-    "url": "https://github.com/robbyczgw-cla/clawdbot-personas/issues"
+    "url": "https://github.com/robbyczgw-cla/moltbot-personas/issues"
   },
-  "clawdbot": {
+  "moltbot": {
     "skill": true,
     "triggers": ["use persona", "switch to", "activate", "exit persona"],
     "capabilities": [

@@ -137,7 +137,7 @@ Then add to `skill.json`:
 **A:** Yes, until you switch or exit. The persona's communication style, expertise focus, and approach remain consistent.
 
 ### Q: Can personas access external tools (web search, code execution)?
-**A:** Yes! Personas can use all Clawdbot tools. Dev might run code, Globetrotter might search travel sites, etc.
+**A:** Yes! Personas can use all Moltbot tools. Dev might run code, Globetrotter might search travel sites, etc.
 
 ### Q: Do personas have different knowledge bases?
 **A:** No - same underlying knowledge. The difference is **how** they communicate and **what** they prioritize. Dev thinks like a programmer, Chef Marco thinks like a chef.
@@ -291,7 +291,7 @@ Original 31 personas are MIT licensed (Chameleon AI).
 - Complex, domain-specific tasks
 
 ### Q: Can I use multiple personas in parallel sessions?
-**A:** Yes! Start multiple Clawdbot sessions, each with different personas. Example:
+**A:** Yes! Start multiple Moltbot sessions, each with different personas. Example:
 - Session 1: Dev persona (coding)
 - Session 2: Wordsmith persona (blog writing)
 - Session 3: Chef Marco persona (meal planning)
@@ -330,11 +330,11 @@ Create new if:
 ### Q: Aren't personas just prompt engineering?
 **A:** Yes! But systematized, reusable, and shareable. Instead of crafting custom prompts every time, load pre-optimized personas instantly.
 
-### Q: Original Chameleon AI vs Clawdbot personas - differences?
+### Q: Original Chameleon AI vs Moltbot personas - differences?
 **A:** 
 - **Chameleon AI**: Web UI, visual elements (colors, themes), chat-focused
-- **Clawdbot**: CLI/Telegram, tool integration, task automation
-- **This skill**: Adapted personalities for Clawdbot use cases, removed UI-specific elements, added creator functionality
+- **Moltbot**: CLI/Telegram, tool integration, task automation
+- **This skill**: Adapted personalities for Moltbot use cases, removed UI-specific elements, added creator functionality
 
 ---
 
