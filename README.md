@@ -1,6 +1,6 @@
 # 🎭 Personas
 
-### A Moltbot Skill
+### A OpenClaw Skill
 
 > Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
 
@@ -251,7 +251,7 @@ Essential personas for everyday use.
 personas/
 ├── README.md         # This file
 ├── FAQ.md            # Common questions
-├── SKILL.md          # Usage instructions (loaded by Moltbot)
+├── SKILL.md          # Usage instructions (loaded by OpenClaw)
 ├── skill.json        # Metadata & persona index
 ├── INTERNAL.md       # Developer documentation
 └── data/             # Persona definitions
@@ -285,8 +285,8 @@ personas/
 - Add to appropriate category in `skill.json`
 - Update this README
 
-**Publishing to ClawdHub:**
-- `clawdhub publish` from skill directory
+**Publishing to ClawHub:**
+- `clawhub publish` from skill directory
 - Semantic versioning for updates
 - Include changelog
 
@@ -294,10 +294,10 @@ personas/
 
 ## 📜 License
 
-Based on Chameleon AI Chat personas - adapted for Moltbot.
+Based on Chameleon AI Chat personas - adapted for OpenClaw.
 
 - Original: Chameleon AI (MIT License)
-- Adaptation: Moltbot (MIT License)
+- Adaptation: OpenClaw (MIT License)
 - Author: Robby / Chameleon AI Community
 
 ---
@@ -305,8 +305,8 @@ Based on Chameleon AI Chat personas - adapted for Moltbot.
 ## 🔗 Links
 
 - [Chameleon AI Chat](https://github.com/robbyczgw-cla/Chameleon-AI-Chat) - Original project
-- [ClawdHub](https://clawdhub.com) - Skill marketplace
-- [Moltbot Docs](https://moltbot.com/docs) - Framework documentation
+- [ClawHub](https://clawhub.ai) - Skill marketplace
+- [OpenClaw Docs](https://openclaw.com/docs) - Framework documentation
 
 ---
 

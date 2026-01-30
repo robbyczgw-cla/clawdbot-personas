@@ -116,7 +116,7 @@ Then add to `skill.json`:
 ```
 
 ### Q: Can I share custom personas?
-**A:** Yes! Share the `.md` file or publish a modified version of this skill to ClawdHub with your custom additions.
+**A:** Yes! Share the `.md` file or publish a modified version of this skill to ClawHub with your custom additions.
 
 ### Q: Examples of good custom personas?
 **A:**
@@ -137,7 +137,7 @@ Then add to `skill.json`:
 **A:** Yes, until you switch or exit. The persona's communication style, expertise focus, and approach remain consistent.
 
 ### Q: Can personas access external tools (web search, code execution)?
-**A:** Yes! Personas can use all Moltbot tools. Dev might run code, Globetrotter might search travel sites, etc.
+**A:** Yes! Personas can use all OpenClaw tools. Dev might run code, Globetrotter might search travel sites, etc.
 
 ### Q: Do personas have different knowledge bases?
 **A:** No - same underlying knowledge. The difference is **how** they communicate and **what** they prioritize. Dev thinks like a programmer, Chef Marco thinks like a chef.
@@ -254,7 +254,7 @@ Or manually: Get Dev's take, then switch to CyberGuard for security perspective,
 **A:** Yes!
 - **Export**: Copy `.md` files from `data/`
 - **Import**: Drop `.md` files into `data/`, update `skill.json`
-- Share via GitHub, ClawdHub, or direct file transfer
+- Share via GitHub, ClawHub, or direct file transfer
 
 ### Q: Can I use personas in sub-agents?
 **A:** Yes! Spawn a sub-agent with a persona request:
@@ -274,7 +274,7 @@ Then track changes, revert if needed.
 
 ### Q: Can I monetize custom personas?
 **A:** If you create valuable custom personas, you can:
-1. Publish modified skill to ClawdHub
+1. Publish modified skill to ClawHub
 2. Share on GitHub (MIT license)
 3. Offer as part of consulting/services
 
@@ -291,7 +291,7 @@ Original 31 personas are MIT licensed (Chameleon AI).
 - Complex, domain-specific tasks
 
 ### Q: Can I use multiple personas in parallel sessions?
-**A:** Yes! Start multiple Moltbot sessions, each with different personas. Example:
+**A:** Yes! Start multiple OpenClaw sessions, each with different personas. Example:
 - Session 1: Dev persona (coding)
 - Session 2: Wordsmith persona (blog writing)
 - Session 3: Chef Marco persona (meal planning)
@@ -330,11 +330,11 @@ Create new if:
 ### Q: Aren't personas just prompt engineering?
 **A:** Yes! But systematized, reusable, and shareable. Instead of crafting custom prompts every time, load pre-optimized personas instantly.
 
-### Q: Original Chameleon AI vs Moltbot personas - differences?
+### Q: Original Chameleon AI vs OpenClaw personas - differences?
 **A:** 
 - **Chameleon AI**: Web UI, visual elements (colors, themes), chat-focused
-- **Moltbot**: CLI/Telegram, tool integration, task automation
-- **This skill**: Adapted personalities for Moltbot use cases, removed UI-specific elements, added creator functionality
+- **OpenClaw**: CLI/Telegram, tool integration, task automation
+- **This skill**: Adapted personalities for OpenClaw use cases, removed UI-specific elements, added creator functionality
 
 ---
 

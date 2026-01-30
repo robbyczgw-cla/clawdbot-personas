@@ -28,7 +28,7 @@ This document explains the technical architecture, implementation details, and m
 personas/
 ├── README.md          # User-facing documentation (extensive guide)
 ├── FAQ.md             # Common questions and troubleshooting
-├── SKILL.md           # Moltbot skill instructions (loaded on invocation)
+├── SKILL.md           # OpenClaw skill instructions (loaded on invocation)
 ├── skill.json         # Metadata, index, and feature list
 ├── INTERNAL.md        # This file (developer documentation)
 └── data/              # Persona definitions (31 default + custom)
@@ -46,7 +46,7 @@ personas/
 ```
 User request: "Use Dev persona"
        ↓
-Moltbot parses intent → persona activation
+OpenClaw parses intent → persona activation
        ↓
 Read ~/clawd/skills/personas/data/dev.md
        ↓
@@ -112,7 +112,7 @@ Each persona `.md` file follows this structure:
 ```
 
 **Why this structure?**
-- **Consistent parsing** - Moltbot can extract sections reliably
+- **Consistent parsing** - OpenClaw can extract sections reliably
 - **LLM-friendly** - Clear headers guide model behavior
 - **Human-readable** - Easy to edit and understand
 - **Extensible** - Add custom sections as needed
@@ -125,7 +125,7 @@ Each persona `.md` file follows this structure:
   "emoji": "🎭",
   "description": "Transform into 31 specialized AI personalities...",
   "category": "ai-experience",
-  "author": "Chameleon AI / Moltbot",
+  "author": "Chameleon AI / OpenClaw",
   "version": "1.0.0",
   "tags": ["personalities", "modes", "expertise", ...],
   "features": [
@@ -148,8 +148,8 @@ Each persona `.md` file follows this structure:
 
 **Fields:**
 - `personas` - Categorized index of all available personas
-- `features` - Used for ClawdHub listing
-- `tags` - Search/discovery on ClawdHub
+- `features` - Used for ClawHub listing
+- `tags` - Search/discovery on ClawHub
 - `version` - Semantic versioning for updates
 
 ### Activation Logic
@@ -160,7 +160,7 @@ Each persona `.md` file follows this structure:
 - `"Activate [persona]"`
 - `"I want [persona] mode"`
 
-**Moltbot behavior:**
+**OpenClaw behavior:**
 1. Parse persona name from user input
 2. Normalize: lowercase, replace spaces with hyphens
 3. Check if file exists: `data/{persona}.md`
@@ -313,7 +313,7 @@ Want to activate it now? (yes/no)"
 4. Update README.md persona table
 5. Add FAQ entry if needed
 6. Bump `version` in `skill.json` (minor version: x.Y.z)
-7. Publish update to ClawdHub
+7. Publish update to ClawHub
 
 ### Updating Existing Personas
 
@@ -376,7 +376,7 @@ Want to activate it now? (yes/no)"
 - ✅ **Lazy loading** - Only load requested persona
 - ✅ **No embedding** - Don't include all 31 in context
 - ⚠️ **Compression** - Could minify prompts, but reduces readability
-- ⚠️ **Caching** - Moltbot could cache frequently-used personas
+- ⚠️ **Caching** - OpenClaw could cache frequently-used personas
 
 **Recommendation:** Current approach is optimal. Don't over-optimize.
 
@@ -414,7 +414,7 @@ At 100 custom personas: ~425KB total (still tiny).
 - Personas are local files (user controls data/)
 - No remote persona loading
 - File permissions: user-writable only
-- Moltbot sandboxing prevents system-level harm
+- OpenClaw sandboxing prevents system-level harm
 
 **Low risk** - user shoots own foot if editing files maliciously.
 
@@ -426,7 +426,7 @@ At 100 custom personas: ~425KB total (still tiny).
 - Include copyrighted content verbatim
 
 **Review process:**
-- Check files before publishing to ClawdHub
+- Check files before publishing to ClawHub
 - Sanitize any contributed personas
 - FAQ explicitly warns against secrets in personas
 
@@ -481,11 +481,11 @@ At 100 custom personas: ~425KB total (still tiny).
 **Process:**
 1. Fork skill or submit `.md` file
 2. Review for quality, ethics, uniqueness
-3. Test in Moltbot
+3. Test in OpenClaw
 4. Merge if approved
 5. Credit contributor in README
 
-**ClawdHub publication:**
+**ClawHub publication:**
 - Original skill: `personas` (official, 31 defaults)
 - Forks: `personas-extended`, `personas-medical`, etc.
 - Users can install multiple persona skills (data/ folders merge)
@@ -535,7 +535,7 @@ Bot: *doesn't act like a programmer*
 - Validate markdown structure
 - Ensure UTF-8 encoding
 - Restore from backup if corrupted
-- Clear Moltbot cache (if applicable)
+- Clear OpenClaw cache (if applicable)
 
 ---
 
@@ -571,8 +571,8 @@ Bot: *doesn't guide through creation*
 - Custom persona creation rate (feature adoption)
 
 **Implementation:**
-- Moltbot may log tool calls (file reads)
-- skill.json could include usage stats (if Moltbot supports)
+- OpenClaw may log tool calls (file reads)
+- skill.json could include usage stats (if OpenClaw supports)
 
 ---
 
@@ -598,7 +598,7 @@ Bot: *doesn't guide through creation*
 
 ### Exporting Personas
 
-**To another Moltbot instance:**
+**To another OpenClaw instance:**
 ```bash
 # Copy entire skill
 cp -r ~/clawd/skills/personas /path/to/other/instance/skills/
@@ -609,7 +609,7 @@ cp ~/clawd/skills/personas/data/my-custom-*.md /path/to/other/data/
 
 **To share with others:**
 - GitHub repo of `.md` files
-- ClawdHub publication
+- ClawHub publication
 - Direct file sharing (Dropbox, email, etc.)
 
 ---
@@ -622,8 +622,8 @@ cp ~/clawd/skills/personas/data/my-custom-*.md /path/to/other/data/
 # 1. Edit persona
 vim ~/clawd/skills/personas/data/dev.md
 
-# 2. Test in Moltbot
-moltbot
+# 2. Test in OpenClaw
+openclaw
 > "Use Dev"
 > "Write a Python function to parse JSON"
 
@@ -637,7 +637,7 @@ git add data/dev.md
 git commit -m "Improve Dev persona: Add Python focus"
 ```
 
-### Publishing to ClawdHub
+### Publishing to ClawHub
 
 ```bash
 cd ~/clawd/skills/personas
@@ -649,7 +649,7 @@ vim skill.json  # e.g., 1.0.0 → 1.1.0
 echo "## v1.1.0 - $(date +%Y-%m-%d)\n- Added Game Master persona\n- Improved Dev persona Python expertise" >> CHANGELOG.md
 
 # 3. Publish
-clawdhub publish
+clawhub publish
 
 # 4. Tag release
 git tag v1.1.0
@@ -663,7 +663,7 @@ git push origin v1.1.0
 - Coordinate with Chameleon maintainers
 - Keep adapted version in sync
 
-**To Moltbot (this skill):**
+**To OpenClaw (this skill):**
 - Fork/PR to skill repository
 - Follow code review process
 - Maintain quality standards
@@ -677,7 +677,7 @@ git push origin v1.1.0
 - Authors: Chameleon AI Community
 - License: MIT
 
-**Moltbot Adaptation:**
+**OpenClaw Adaptation:**
 - Adapter: Robby (robbyczgw-cla)
 - Modifications: Removed UI-specific elements, added creator workflow, optimized for CLI/tool use
 - License: MIT
@@ -685,12 +685,12 @@ git push origin v1.1.0
 **31 Default Personas:**
 - Adapted from Chameleon AI definitions (TypeScript → Markdown)
 - Personality prompts largely preserved
-- Communication styles adjusted for Moltbot context
+- Communication styles adjusted for OpenClaw context
 
 **Skill Framework:**
-- Platform: Moltbot
-- Skill structure follows Moltbot conventions
-- Compatible with ClawdHub publication
+- Platform: OpenClaw
+- Skill structure follows OpenClaw conventions
+- Compatible with ClawHub publication
 
 ---
 
