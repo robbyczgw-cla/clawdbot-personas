@@ -2,6 +2,11 @@
 name: personas
 description: Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
 triggers:
+  - /persona <name>
+  - /persona list
+  - /persona exit
+  - /persona create <name>
+  - /personas
   - use persona
   - switch to
   - activate
@@ -41,6 +46,34 @@ Transform OpenClaw into 31 specialized personalities on demand. Each persona bri
 ```
 "Exit persona mode"
 "Back to normal"
+```
+
+---
+
+## Slash Commands
+
+Use these commands any time for fast, explicit control. (Natural-language triggers still work.)
+
+**Activate a persona:**
+```
+/persona dev
+/persona "Chef Marco"
+```
+
+**List personas:**
+```
+/persona list
+/personas
+```
+
+**Exit current persona:**
+```
+/persona exit
+```
+
+**Create a new persona:**
+```
+/persona create "Game Master"
 ```
 
 ---
@@ -235,4 +268,3 @@ All persona definitions are stored in `data/`:
 - Activate by name: filename without `.md` extension
 - Case-insensitive: "Dev", "dev", "DEV" all work
 - **Custom personas** you create are saved here too!
-

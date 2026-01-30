@@ -17,10 +17,22 @@
 "Activate Dr. Med"
 ```
 
+**Slash command shortcuts:**
+```
+/persona dev
+/persona "Chef Marco"
+```
+
 **List available personas:**
 ```
 "List all personas"
 "Show persona categories"
+```
+
+**Slash command list:**
+```
+/persona list
+/personas
 ```
 
 **Create your own:**
@@ -29,10 +41,20 @@
 "I want a persona for debugging"
 ```
 
+**Slash command create:**
+```
+/persona create "Game Master"
+```
+
 **Exit persona mode:**
 ```
 "Exit persona mode"
 "Back to normal"
+```
+
+**Slash command exit:**
+```
+/persona exit
 ```
 
 ---
