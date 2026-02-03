@@ -1,7 +1,8 @@
 ---
 name: personas
-version: 2.0.0
+version: 2.0.1
 description: Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
+metadata: {"clawdbot":{"requires":{"bins":[],"env":[]}}}
 triggers:
   - /persona <name>
   - /persona list
