@@ -1,6 +1,6 @@
 {
   "name": "@openclaw/personas",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas with guided workflow. Token-efficient, comprehensive docs included.",
   "keywords": [
     "openclaw",
@@ -36,7 +36,11 @@
       "custom-creator"
     ],
     "personas": 31,
-    "categories": ["core", "creative", "learning", "lifestyle", "professional", "philosophy", "curator"]
+    "categories": ["core", "creative", "learning", "lifestyle", "professional", "philosophy", "curator"],
+    "requirements": {
+      "bins": [],
+      "env": {}
+    }
   },
   "files": [
     "SKILL.md",

@@ -1,5 +1,6 @@
 ---
 name: personas
+version: 1.0.13
 description: Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
 triggers:
   - /persona <name>
