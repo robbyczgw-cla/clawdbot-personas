@@ -320,7 +320,7 @@ Based on Chameleon AI Chat personas - adapted for OpenClaw.
 
 - Original: Chameleon AI (MIT License)
 - Adaptation: OpenClaw (MIT License)
-- Author: Robby / Chameleon AI Community
+- Author: Chameleon AI Community
 
 ---
 

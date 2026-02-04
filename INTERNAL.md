@@ -678,7 +678,7 @@ git push origin v1.1.0
 - License: MIT
 
 **OpenClaw Adaptation:**
-- Adapter: Robby (robbyczgw-cla)
+- Adapter: robbyczgw-cla
 - Modifications: Removed UI-specific elements, added creator workflow, optimized for CLI/tool use
 - License: MIT
 
@@ -767,4 +767,4 @@ du -h *.md | sort -h
 
 **Document Version:** 1.0.0
 **Last Updated:** 2026-01-20
-**Maintainer:** Robby (robbyczgw-cla)
+**Maintainer:** robbyczgw-cla

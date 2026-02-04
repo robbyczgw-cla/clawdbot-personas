@@ -201,7 +201,7 @@ See **FAQ.md** for 50+ more questions.
 - License: MIT
 
 **OpenClaw Adaptation:**
-- By: Robby (robbyczgw-cla)
+- By: robbyczgw-cla
 - License: MIT
 
 ---
