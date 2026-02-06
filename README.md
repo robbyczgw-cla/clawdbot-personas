@@ -2,7 +2,7 @@
 
 ### A OpenClaw Skill
 
-> Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
+> Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
 
 **Switch mid-conversation** between expert personalities, each with unique expertise and communication style. Includes guided creator for custom personas.
 
@@ -59,7 +59,7 @@
 
 ---
 
-## 📋 Available Personas (31)
+## 📋 Available Personas (20)
 
 ### 🦎 Core (5)
 Essential personas for everyday use.
@@ -133,7 +133,7 @@ Essential personas for everyday use.
 ## 🛠️ Creating Custom Personas
 
 **Why create custom personas?**
-- Niche expertise not covered by the 31 defaults
+- Niche expertise not covered by the 20 defaults
 - Personalized communication style
 - Specific use cases (e.g., "Code Reviewer", "Dungeon Master", "Motivator")
 

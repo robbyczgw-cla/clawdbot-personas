@@ -1,10 +1,10 @@
-# Personas - 31 Expert AI Personalities 🎭
+# Personas - 20 Expert AI Personalities 🎭
 
 Transform OpenClaw into specialized experts on demand. Switch from senior programmer to Italian chef to doctor mid-conversation.
 
 ## What You Get
 
-- **31 pre-built personas** across 7 categories (Core, Creative, Learning, Lifestyle, Professional, Philosophy)
+- **20 pre-built personas** across 7 categories (Core, Creative, Learning, Lifestyle, Professional, Philosophy)
 - **Custom persona creator** with guided 7-step workflow  
 - **Token-efficient** - loads only the active persona (~750 tokens)
 - **Comprehensive docs** - README, FAQ (50+ questions), developer guides
