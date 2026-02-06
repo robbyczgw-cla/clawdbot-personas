@@ -103,6 +103,12 @@ Essential personas for everyday use.
 
 ---
 
+## 💡 Want a New Persona?
+
+The custom persona creator was removed for security reasons. But if you have a great idea for a new persona, **open an issue** on [GitHub](https://github.com/robbyczgw-cla/clawdbot-personas/issues) or reach out — we're happy to add community-suggested personas to the official set! 🎭
+
+---
+
 ## 💡 How It Works
 
 **Token-efficient loading:**
