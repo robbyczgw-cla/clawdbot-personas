@@ -1,10 +1,10 @@
 {
   "name": "Personas",
   "emoji": "🎭",
-  "description": "20 specialized AI personalities on demand. Switch from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical) mid-conversation. Includes custom persona creator. Token-efficient, loads only active persona. Based on Chameleon AI Chat.",
+  "description": "20 specialized AI personalities on demand. Switch from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical) mid-conversation. Token-efficient, loads only active persona.",
   "category": "ai-experience",
   "author": "Chameleon AI / OpenClaw",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "readme": "README.md",
   "tags": [
     "personalities",
@@ -16,7 +16,6 @@
   ],
   "features": [
     "20 pre-built expert personas",
-    "Create custom personas on demand",
     "Switch personalities mid-conversation",
     "Load only what you need (token-efficient)",
     "Organized by category: core, creative, curator, learning, lifestyle, professional"

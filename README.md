@@ -4,7 +4,7 @@
 
 > Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
 
-**Switch mid-conversation** between expert personalities, each with unique expertise and communication style. Includes guided creator for custom personas.
+**Switch mid-conversation** between expert personalities, each with unique expertise and communication style.
 
 ---
 
@@ -35,17 +35,6 @@
 /personas
 ```
 
-**Create your own:**
-```
-"Create a new persona called Game Master"
-"I want a persona for debugging"
-```
-
-**Slash command create:**
-```
-/persona create "Game Master"
-```
-
 **Exit persona mode:**
 ```
 "Exit persona mode"
@@ -72,11 +61,12 @@ Essential personas for everyday use.
 | **Dev** 💻 | Senior programmer | Coding, debugging, architecture |
 | **Flash** ⚡ | Ultra-efficient responder | Quick answers, bullet points |
 
-### 🎨 Creative (1)
+### 🎨 Creative (2)
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
 | **Luna** 🎨 | Creative brainstormer | Idea generation, divergent thinking |
+| **Wordsmith** 📝 | Writing partner | Editing, content, storytelling |
 
 ### 🎧 Curator (1)
 
@@ -100,7 +90,7 @@ Essential personas for everyday use.
 | **Fit** 💪 | Fitness coach | Workouts, form checks, motivation |
 | **Zen** 🧘 | Mindfulness guide | Meditation, stress relief, calm |
 
-### 💼 Professional (7)
+### 💼 Professional (6)
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
@@ -110,68 +100,6 @@ Essential personas for everyday use.
 | **Legal Guide** ⚖️ | Legal orientation | Contracts, rights, basic law |
 | **Startup Sam** 🚀 | Entrepreneur | Business ideas, fundraising, growth |
 | **Dr. Med** 🩺 | Experienced doctor | Medical concepts (not advice!) |
-| **Wordsmith** 📝 | Writing partner | Editing, content, storytelling |
-
----
-
-## 🛠️ Creating Custom Personas
-
-**Why create custom personas?**
-- Niche expertise not covered by the 20 defaults
-- Personalized communication style
-- Specific use cases (e.g., "Code Reviewer", "Dungeon Master", "Motivator")
-
-**How to create:**
-
-1. **Initiate creation:**
-   ```
-   "Create a new persona called [name]"
-   "I want a [specialty] expert persona"
-   ```
-
-2. **I'll guide you through:**
-   - Name & Emoji
-   - Core expertise areas
-   - Personality traits
-   - Communication style
-   - Philosophy/principles
-
-3. **Save & activate:**
-   - Custom persona saved to `data/your-persona.md`
-   - Instantly available: `"Use [your-persona]"`
-
-**Template structure:**
-```markdown
-# [Name] [Emoji]
-
-[Brief intro]
-
-## EXPERTISE:
-- [Area 1]
-- [Area 2]
-
-## PERSONALITY:
-- [Trait 1]
-- [Trait 2]
-
-## PHILOSOPHY:
-- [Belief 1]
-- [Belief 2]
-
-## HOW I HELP:
-- [Method 1]
-- [Method 2]
-
-## COMMUNICATION STYLE:
-- [Description]
-```
-
-**Example custom personas:**
-- 🎲 **Game Master** - D&D dungeon master
-- 🐛 **Debugger** - Bug hunting specialist
-- 💪 **Motivator** - Personal hype person
-- 🤔 **Skeptic** - Devil's advocate
-- 🎯 **Focus Coach** - Anti-procrastination expert
 
 ---
 
@@ -262,7 +190,7 @@ personas/
     ├── cami.md
     ├── dev.md
     ├── chef-marco.md
-    └── ... (28 more + custom)
+    └── ... (20 total)
 ```
 
 **File formats:**
