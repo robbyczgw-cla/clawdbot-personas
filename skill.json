@@ -4,7 +4,7 @@
   "description": "20 specialized AI personalities on demand. Switch from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical) mid-conversation. Includes custom persona creator. Token-efficient, loads only active persona. Based on Chameleon AI Chat.",
   "category": "ai-experience",
   "author": "Chameleon AI / OpenClaw",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "readme": "README.md",
   "tags": [
     "personalities",

@@ -72,12 +72,11 @@ Essential personas for everyday use.
 | **Dev** 💻 | Senior programmer | Coding, debugging, architecture |
 | **Flash** ⚡ | Ultra-efficient responder | Quick answers, bullet points |
 
-### 🎨 Creative (2)
+### 🎨 Creative (1)
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
 | **Luna** 🎨 | Creative brainstormer | Idea generation, divergent thinking |
-| **Mythos** 🗺️ | Worldbuilder | Fiction writing, RPG campaigns |
 
 ### 🎧 Curator (1)
 
@@ -93,25 +92,18 @@ Essential personas for everyday use.
 | **Scholar** 📚 | Study partner | Exam prep, Socratic learning |
 | **Lingua** 🗣️ | Language tutor | Language practice, corrections |
 
-### 🌟 Lifestyle (9)
+### 🌟 Lifestyle (3)
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
 | **Chef Marco** 👨‍🍳 | Italian cooking expert | Recipes, techniques, food culture |
 | **Fit** 💪 | Fitness coach | Workouts, form checks, motivation |
 | **Zen** 🧘 | Mindfulness guide | Meditation, stress relief, calm |
-| **Globetrotter** ✈️ | Travel expert | Trip planning, destinations, hacks |
-| **Wellbeing** 🌱 | Holistic health | Sleep, habits, self-care |
-| **DIY Maker** 🔨 | Handyman | Repairs, crafts, how-to guides |
-| **Family** 👨‍👩‍👧 | Parenting advisor | Kids, activities, family life |
-| **Lisa Knight** 🌿 | Sustainability activist | Eco-living, climate action |
-| **The Panel** 🎙️ | Four expert perspectives | Multi-angle discussion |
 
-### 💼 Professional (10)
+### 💼 Professional (7)
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
-| **Social Pro** 📱 | Social media strategist | Content, growth, platform tips |
 | **CyberGuard** 🔒 | Cybersecurity expert | Privacy, passwords, scam detection |
 | **DataViz** 📊 | Data scientist | Analytics, charts, statistics |
 | **Career Coach** 💼 | Job search advisor | Resumes, interviews, negotiation |
@@ -119,14 +111,6 @@ Essential personas for everyday use.
 | **Startup Sam** 🚀 | Entrepreneur | Business ideas, fundraising, growth |
 | **Dr. Med** 🩺 | Experienced doctor | Medical concepts (not advice!) |
 | **Wordsmith** 📝 | Writing partner | Editing, content, storytelling |
-| **Canvas** 🎨 | UI/UX designer | Design feedback, layouts, color |
-| **Finny** 💰 | Financial guide | Budgeting, saving, money basics |
-
-### 🧠 Philosophy (1)
-
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **Coach Thompson** 🏆 | Performance coach | Goals, mindset, personal growth |
 
 ---
 
@@ -222,8 +206,7 @@ Essential personas for everyday use.
 ### Content Creation
 ```
 "Use Wordsmith" → write blog post
-"Switch to Social Pro" → optimize for Instagram
-"Use Canvas" → design featured image
+"Use Luna" → brainstorm ideas
 ```
 
 ### Learning
@@ -236,7 +219,6 @@ Essential personas for everyday use.
 ### Business Planning
 ```
 "Use Startup Sam" → validate idea
-"Switch to Finny" → budget projections
 "Use Career Coach" → pitch practice
 ```
 
@@ -254,7 +236,7 @@ Essential personas for everyday use.
 - Complex cases: consult a lawyer
 - Know your local laws may differ
 
-**Financial (Finny):**
+**Business (Startup Sam):**
 - NOT licensed financial advice
 - No specific investment recommendations
 - Consult professionals for major decisions
