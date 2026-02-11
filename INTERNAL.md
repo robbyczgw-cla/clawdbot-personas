@@ -408,17 +408,9 @@ At 100 custom personas: ~425KB total (still tiny).
 
 ## Security & Safety
 
-### Prompt Injection Risks
+### Persona File Safety
 
-**Threat:** Malicious persona file could inject harmful instructions.
-
-**Mitigations:**
-- Personas are local files (user controls data/)
-- No remote persona loading
-- File permissions: user-writable only
-- OpenClaw sandboxing prevents system-level harm
-
-**Low risk** - user shoots own foot if editing files maliciously.
+All persona files are local, read-only markdown — the skill never fetches or downloads personas from the network. The 20 bundled personas are curated and reviewed. OpenClaw's sandbox mode can further restrict what persona prompts are allowed to do.
 
 ### Sensitive Information
 
