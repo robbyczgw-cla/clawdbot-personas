@@ -1,8 +1,8 @@
 ---
 name: personas
-version: 2.2.1
+version: 2.2.2
 description: Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation. Token-efficient, loads only active persona.
-metadata: {"clawdbot":{"requires":{"bins":[],"env":[]}}}
+metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed."}}}
 triggers:
   - /persona <name>
   - /persona list
