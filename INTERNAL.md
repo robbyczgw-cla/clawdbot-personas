@@ -11,7 +11,7 @@ This document explains the technical architecture, implementation details, and m
 ### Design Philosophy
 
 **Problem:** Users need specialized AI responses for different domains (coding, writing, health, etc.) without:
-- Loading 31 personalities into context simultaneously (token waste)
+- Loading 20 personalities into context simultaneously (token waste)
 - Manually crafting expert prompts every conversation
 - Maintaining separate chat sessions for each expert type
 
@@ -31,7 +31,9 @@ personas/
 ├── SKILL.md           # OpenClaw skill instructions (loaded on invocation)
 ├── skill.json         # Metadata, index, and feature list
 ├── INTERNAL.md        # This file (developer documentation)
-└── data/              # Persona definitions (31 default + custom)
+├── scripts/
+│   └── persona.py     # Python CLI handler (v2.2.0+)
+└── data/              # Persona definitions (20 default)
     ├── cami.md
     ├── chameleon-agent.md
     ├── dev.md

@@ -1,7 +1,7 @@
 # Personas Skill - Quick Overview
 
 **Status:** ✅ Production-ready
-**Version:** 1.0.0
+**Version:** 2.2.2
 **Size:** ~204KB (20 personas + docs)
 **Created:** 2026-01-20
 
@@ -37,14 +37,15 @@ personas/
 ├── SKILL.md               # 🎯 OpenClaw skill instructions (loaded on use)
 ├── skill.json             # ⚙️ Metadata & persona index
 ├── INTERNAL.md            # 🔧 Developer documentation (for us)
-├── creator-workflow.md    # 🎨 Persona creation implementation guide
 ├── OVERVIEW.md            # 📋 This file (quick reference)
+├── scripts/
+│   └── persona.py         # 🐍 Python CLI handler (NEW in v2.2.0!)
 └── data/                  # 📁 20 persona definitions (2-5KB each)
     ├── cami.md            #   🦎 Adaptive chameleon
     ├── dev.md             #   💻 Senior programmer
     ├── chef-marco.md      #   👨‍🍳 Italian cooking expert
     ├── dr-med.md          #   🩺 Medical educator
-    └── ... (27 more)
+    └── ... (16 more)
 ```
 
 ---
@@ -69,18 +70,17 @@ personas/
 
 ## Quick Stats
 
-**Personas:** 20 default + unlimited custom
+**Personas:** 20 curated personas
 
 **Categories:**
-- Core: 5 personas (general use)
-- Creative: 2 personas (brainstorming, worldbuilding)
-- Curator: 1 persona (recommendations)
-- Learning: 3 personas (education, languages)
-- Lifestyle: 9 personas (health, travel, DIY, family)
-- Professional: 10 personas (business, legal, medical, design)
-- Philosophy: 1 persona (personal development)
+- Core: 5 personas (Cami, Chameleon Agent, Professor Stein, Dev, Flash)
+- Creative: 2 personas (Luna, Wordsmith)
+- Curator: 1 persona (Vibe)
+- Learning: 3 personas (Herr Müller, Scholar, Lingua)
+- Lifestyle: 3 personas (Chef Marco, Fit, Zen)
+- Professional: 6 personas (CyberGuard, DataViz, Career Coach, Legal Guide, Startup Sam, Dr. Med)
 
-**Documentation:** ~2,900 lines across 6 files
+**CLI Handler:** `scripts/persona.py` (NEW in v2.2.0!)
 
 **Total size:** ~204KB
 
@@ -89,11 +89,12 @@ personas/
 ## Key Features
 
 ✅ **20 pre-built expert personas**  
-✅ **Create custom personas** (guided workflow)  
+✅ **Python CLI handler** (`scripts/persona.py`) — NEW in v2.2.0!  
 ✅ **Switch mid-conversation**  
+✅ **Alias support** (e.g., `chef` → `chef-marco`)  
+✅ **State persistence** (remembers active persona)  
 ✅ **Token-efficient** (load only what you need)  
 ✅ **Organized by category**  
-✅ **Extensively documented**  
 ✅ **Ready for ClawHub publication**
 
 ---

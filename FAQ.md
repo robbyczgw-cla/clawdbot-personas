@@ -31,6 +31,19 @@
 ### Q: Do you load all 20 personas at once?
 **A:** No! Only the active persona is loaded from `data/` when you request it. This saves context tokens and keeps responses fast.
 
+### Q: What's the CLI handler?
+**A:** New in v2.2.0! `scripts/persona.py` provides programmatic access:
+```bash
+python3 scripts/persona.py --list        # List all personas
+python3 scripts/persona.py --show dev    # Show persona details
+python3 scripts/persona.py --activate luna  # Activate a persona
+python3 scripts/persona.py --current     # Show active persona
+python3 scripts/persona.py --reset       # Deactivate
+```
+
+### Q: What aliases are supported?
+**A:** Common variations work: `chef` → `chef-marco`, `dr` → `dr-med`, `professor` → `professor-stein`, etc.
+
 ### Q: What's in the `data/` folder?
 **A:** 20 `.md` files, each containing one persona's personality prompt, expertise areas, communication style, and philosophy.
 
