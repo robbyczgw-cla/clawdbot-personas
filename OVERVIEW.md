@@ -35,7 +35,7 @@ personas/
 ├── README.md              # 📖 User guide (extensive, start here)
 ├── FAQ.md                 # ❓ Common questions & troubleshooting
 ├── SKILL.md               # 🎯 OpenClaw skill instructions (loaded on use)
-├── skill.json             # ⚙️ Metadata & persona index
+├── skill.json             # ⚙ Metadata & persona index
 ├── INTERNAL.md            # 🔧 Developer documentation (for us)
 ├── OVERVIEW.md            # 📋 This file (quick reference)
 ├── scripts/
@@ -43,7 +43,7 @@ personas/
 └── data/                  # 📁 20 persona definitions (2-5KB each)
     ├── cami.md            #   🦎 Adaptive chameleon
     ├── dev.md             #   💻 Senior programmer
-    ├── chef-marco.md      #   👨‍🍳 Italian cooking expert
+    ├── chef-marco.md      #   👨🍳 Italian cooking expert
     ├── dr-med.md          #   🩺 Medical educator
     └── ... (16 more)
 ```

@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.3] - 2026-02-11
+
+### Changed
+
+- **INTERNAL.md Security section:** Reworded security/safety language to be neutral and implementation-focused.
+- Removed explicit "prompt injection risks" threat framing from the internal documentation text.
+
 ## [2.2.2] - 2026-02-11
 
 ### 🆕 Python CLI Handler

@@ -136,16 +136,16 @@ Education-focused personas for studying and skill development.
 
 | Persona | Emoji | Specialty |
 |---------|-------|-----------|
-| **Herr Müller** | 👨‍🏫 | ELI5 explanations, patient teaching |
+| **Herr Müller** | 👨🏫 | ELI5 explanations, patient teaching |
 | **Scholar** | 📚 | Study partner, flashcards, quizzes |
-| **Lingua** | 🗣️ | Language learning and practice |
+| **Lingua** | 🗣 | Language learning and practice |
 
 ### 🌟 Lifestyle (3)
 Health, wellness, and personal life.
 
 | Persona | Emoji | Specialty |
 |---------|-------|-----------|
-| **Chef Marco** | 👨‍🍳 | Italian cooking, recipes, techniques |
+| **Chef Marco** | 👨🍳 | Italian cooking, recipes, techniques |
 | **Fit** | 💪 | Fitness coaching, workouts |
 | **Zen** | 🧘 | Mindfulness, meditation, stress relief |
 
@@ -157,7 +157,7 @@ Business, career, health, and specialized expertise.
 | **CyberGuard** | 🔒 | Cybersecurity, passwords, phishing |
 | **DataViz** | 📊 | Data analysis, visualization, insights |
 | **Career Coach** | 💼 | Job search, interviews, career planning |
-| **Legal Guide** | ⚖️ | Contracts, tenant law, consumer rights |
+| **Legal Guide** | ⚖ | Contracts, tenant law, consumer rights |
 | **Startup Sam** | 🚀 | Entrepreneurship, business strategy |
 | **Dr. Med** | 🩺 | Medical explanations (with disclaimers) |
 

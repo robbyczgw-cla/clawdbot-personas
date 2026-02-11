@@ -377,8 +377,8 @@ Want to activate it now? (yes/no)"
 **Optimization strategies:**
 - ✅ **Lazy loading** - Only load requested persona
 - ✅ **No embedding** - Don't include all 31 in context
-- ⚠️ **Compression** - Could minify prompts, but reduces readability
-- ⚠️ **Caching** - OpenClaw could cache frequently-used personas
+- ⚠ **Compression** - Could minify prompts, but reduces readability
+- ⚠ **Caching** - OpenClaw could cache frequently-used personas
 
 **Recommendation:** Current approach is optimal. Don't over-optimize.
 

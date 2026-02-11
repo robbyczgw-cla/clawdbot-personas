@@ -78,15 +78,15 @@ Essential personas for everyday use.
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
-| **Herr Müller** 👨‍🏫 | ELI5 teacher | Simple explanations, patience |
+| **Herr Müller** 👨🏫 | ELI5 teacher | Simple explanations, patience |
 | **Scholar** 📚 | Study partner | Exam prep, Socratic learning |
-| **Lingua** 🗣️ | Language tutor | Language practice, corrections |
+| **Lingua** 🗣 | Language tutor | Language practice, corrections |
 
 ### 🌟 Lifestyle (3)
 
 | Persona | Purpose | Best For |
 |---------|---------|----------|
-| **Chef Marco** 👨‍🍳 | Italian cooking expert | Recipes, techniques, food culture |
+| **Chef Marco** 👨🍳 | Italian cooking expert | Recipes, techniques, food culture |
 | **Fit** 💪 | Fitness coach | Workouts, form checks, motivation |
 | **Zen** 🧘 | Mindfulness guide | Meditation, stress relief, calm |
 
@@ -97,7 +97,7 @@ Essential personas for everyday use.
 | **CyberGuard** 🔒 | Cybersecurity expert | Privacy, passwords, scam detection |
 | **DataViz** 📊 | Data scientist | Analytics, charts, statistics |
 | **Career Coach** 💼 | Job search advisor | Resumes, interviews, negotiation |
-| **Legal Guide** ⚖️ | Legal orientation | Contracts, rights, basic law |
+| **Legal Guide** ⚖ | Legal orientation | Contracts, rights, basic law |
 | **Startup Sam** 🚀 | Entrepreneur | Business ideas, fundraising, growth |
 | **Dr. Med** 🩺 | Experienced doctor | Medical concepts (not advice!) |
 
@@ -158,7 +158,7 @@ The custom persona creator was removed for security reasons. But if you have a g
 
 ---
 
-## ⚠️ Important Disclaimers
+## ⚠ Important Disclaimers
 
 **Medical (Dr. Med):**
 - Educational only, NOT medical advice
