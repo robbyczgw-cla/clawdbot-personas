@@ -1,10 +1,10 @@
 {
   "name": "Personas",
   "emoji": "🎭",
-  "description": "20 specialized AI personalities on demand. Switch from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical) mid-conversation. Token-efficient, loads only active persona.",
+  "description": "20 specialized AI personalities on demand. Switch from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical education) mid-conversation. Token-efficient, loads only the active persona.",
   "category": "ai-experience",
   "author": "Chameleon AI / OpenClaw",
-  "version": "2.2.0",
+  "version": "2.2.6",
   "readme": "README.md",
   "tags": [
     "personalities",
@@ -15,10 +15,11 @@
     "learning"
   ],
   "features": [
-    "20 pre-built expert personas",
-    "Switch personalities mid-conversation",
-    "Load only what you need (token-efficient)",
-    "Organized by category: core, creative, curator, learning, lifestyle, professional"
+    "20 bundled personas",
+    "Persona switching mid-conversation",
+    "CLI management script (list/show/activate/current/reset)",
+    "Alias support for common names",
+    "Token-efficient loading (active persona only)"
   ],
   "personas": {
     "core": [
@@ -29,7 +30,8 @@
       "flash"
     ],
     "creative": [
-      "luna"
+      "luna",
+      "wordsmith"
     ],
     "curator": [
       "vibe"
@@ -50,8 +52,7 @@
       "career-coach",
       "legal-guide",
       "startup-sam",
-      "dr-med",
-      "wordsmith"
+      "dr-med"
     ]
   }
 }

@@ -1,251 +1,60 @@
 # 🎭 Personas
 
-### A OpenClaw Skill
+20 built-in AI personas for OpenClaw. Switch styles and domain focus instantly (e.g., Dev for coding, Wordsmith for writing, Chef Marco for cooking).
 
-> Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical)
+## Quick Start
 
-**Switch mid-conversation** between expert personalities, each with unique expertise and communication style.
+Activate:
+- "Use Dev"
+- "Switch to Chef Marco"
+- "Activate Dr. Med"
 
----
+List:
+- "List all personas"
+- `/persona list`
+- `/personas`
 
-## 🚀 Quick Start
+Exit:
+- "Exit persona mode"
+- `/persona exit`
 
-**Activate a persona:**
-```
-"Use Dev persona"
-"Switch to Chef Marco"
-"Activate Dr. Med"
-```
+## Included Personas (20)
 
-**Slash command shortcuts:**
-```
-/persona dev
-/persona "Chef Marco"
-```
+- **Core (5):** Cami, Chameleon Agent, Professor Stein, Dev, Flash
+- **Creative (2):** Luna, Wordsmith
+- **Curator (1):** Vibe
+- **Learning (3):** Herr Müller, Scholar, Lingua
+- **Lifestyle (3):** Chef Marco, Fit, Zen
+- **Professional (6):** CyberGuard, DataViz, Career Coach, Legal Guide, Startup Sam, Dr. Med
 
-**List available personas:**
-```
-"List all personas"
-"Show persona categories"
-```
+## CLI Script
 
-**Slash command list:**
-```
-/persona list
-/personas
-```
+This skill ships with `scripts/persona.py` for local persona management.
 
-**Exit persona mode:**
-```
-"Exit persona mode"
-"Back to normal"
+```bash
+python3 scripts/persona.py --list
+python3 scripts/persona.py --show dev
+python3 scripts/persona.py --activate luna
+python3 scripts/persona.py --current
+python3 scripts/persona.py --reset
 ```
 
-**Slash command exit:**
-```
-/persona exit
-```
+What it does:
+- Reads bundled persona markdown files from `data/`
+- Resolves common aliases (`chef`, `dr`, etc.)
+- Stores active persona state at `~/.openclaw/persona-state.json`
 
----
+What it does **not** do:
+- No network calls
+- No automatic downloads
+- No guided/custom persona creation workflow
 
-## 📋 Available Personas (20)
+## Notes
 
-### 🦎 Core (5)
-Essential personas for everyday use.
+- Token-efficient: only one persona is active at a time.
+- You can switch personas mid-conversation.
+- Medical/legal personas are educational only, not professional advice.
 
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **Cami** 🦎 | Adaptive, emotion-aware assistant | General help, beginner-friendly |
-| **Chameleon Agent** 🦎 | Premium AI for complex tasks | Deep analysis, multi-step projects |
-| **Professor Stein** 🎓 | Academic expert | Detailed explanations, nuanced topics |
-| **Dev** 💻 | Senior programmer | Coding, debugging, architecture |
-| **Flash** ⚡ | Ultra-efficient responder | Quick answers, bullet points |
+## License
 
-### 🎨 Creative (2)
-
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **Luna** 🎨 | Creative brainstormer | Idea generation, divergent thinking |
-| **Wordsmith** 📝 | Writing partner | Editing, content, storytelling |
-
-### 🎧 Curator (1)
-
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **Vibe** 🎧 | Taste curator | Music, shows, books recommendations |
-
-### 📚 Learning (3)
-
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **Herr Müller** 👨🏫 | ELI5 teacher | Simple explanations, patience |
-| **Scholar** 📚 | Study partner | Exam prep, Socratic learning |
-| **Lingua** 🗣 | Language tutor | Language practice, corrections |
-
-### 🌟 Lifestyle (3)
-
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **Chef Marco** 👨🍳 | Italian cooking expert | Recipes, techniques, food culture |
-| **Fit** 💪 | Fitness coach | Workouts, form checks, motivation |
-| **Zen** 🧘 | Mindfulness guide | Meditation, stress relief, calm |
-
-### 💼 Professional (6)
-
-| Persona | Purpose | Best For |
-|---------|---------|----------|
-| **CyberGuard** 🔒 | Cybersecurity expert | Privacy, passwords, scam detection |
-| **DataViz** 📊 | Data scientist | Analytics, charts, statistics |
-| **Career Coach** 💼 | Job search advisor | Resumes, interviews, negotiation |
-| **Legal Guide** ⚖ | Legal orientation | Contracts, rights, basic law |
-| **Startup Sam** 🚀 | Entrepreneur | Business ideas, fundraising, growth |
-| **Dr. Med** 🩺 | Experienced doctor | Medical concepts (not advice!) |
-
----
-
-## 💡 Want a New Persona?
-
-The custom persona creator was removed for security reasons. But if you have a great idea for a new persona, **open an issue** on [GitHub](https://github.com/robbyczgw-cla/clawdbot-personas/issues) or reach out — we're happy to add community-suggested personas to the official set! 🎭
-
----
-
-## 💡 How It Works
-
-**Token-efficient loading:**
-- **Index** in `skill.json` shows available personas (lightweight)
-- **Only the active persona** is loaded from `data/` when needed
-- No massive context dump - just the one you're using
-
-**Switching personas:**
-- Change mid-conversation anytime
-- Previous persona context is replaced
-- Smooth transitions between expertise areas
-
-**Memory:**
-- Active persona remembers your conversation context
-- Adapts to your preferences and style
-- Maintains character until you switch
-
----
-
-## 📖 Use Cases
-
-### Coding Project
-```
-"Use Dev" → get senior dev help
-"Switch to CyberGuard" → security review
-"Use Chameleon Agent" → complex architecture decisions
-```
-
-### Content Creation
-```
-"Use Wordsmith" → write blog post
-"Use Luna" → brainstorm ideas
-```
-
-### Learning
-```
-"Use Scholar" → study for exam
-"Switch to Herr Müller" → simplify complex topic
-"Use Professor Stein" → deep dive
-```
-
-### Business Planning
-```
-"Use Startup Sam" → validate idea
-"Use Career Coach" → pitch practice
-```
-
----
-
-## ⚠ Important Disclaimers
-
-**Medical (Dr. Med):**
-- Educational only, NOT medical advice
-- Always consult real doctors for health issues
-- Emergency: call 112 immediately
-
-**Legal (Legal Guide):**
-- NOT legal advice or representation
-- Complex cases: consult a lawyer
-- Know your local laws may differ
-
-**Business (Startup Sam):**
-- NOT licensed financial advice
-- No specific investment recommendations
-- Consult professionals for major decisions
-
-**General:**
-- All personas are AI - not human experts
-- Use judgment and verify important information
-- Critical decisions need human professionals
-
----
-
-## 🔧 Technical Details
-
-**Skill structure:**
-```
-personas/
-├── README.md         # This file
-├── FAQ.md            # Common questions
-├── SKILL.md          # Usage instructions (loaded by OpenClaw)
-├── skill.json        # Metadata & persona index
-├── INTERNAL.md       # Developer documentation
-└── data/             # Persona definitions
-    ├── cami.md
-    ├── dev.md
-    ├── chef-marco.md
-    └── ... (20 total)
-```
-
-**File formats:**
-- `.md` files = Markdown personality prompts
-- `skill.json` = JSON metadata
-- Case-insensitive persona names
-
-**Adding personas manually:**
-1. Create `data/your-persona.md` following the template
-2. Add entry to `skill.json` personas object
-3. Use immediately: `"Use your-persona"`
-
----
-
-## 🤝 Contributing
-
-**Improving existing personas:**
-- Edit files in `data/`
-- Keep structure consistent
-- Test before committing
-
-**Adding new default personas:**
-- Follow template in FAQ.md
-- Add to appropriate category in `skill.json`
-- Update this README
-
-**Publishing to ClawHub:**
-- `clawhub publish` from skill directory
-- Semantic versioning for updates
-- Include changelog
-
----
-
-## 📜 License
-
-Based on Chameleon AI Chat personas - adapted for OpenClaw.
-
-- Original: Chameleon AI (MIT License)
-- Adaptation: OpenClaw (MIT License)
-- Author: Chameleon AI Community
-
----
-
-## 🔗 Links
-
-- [Chameleon AI Chat](https://github.com/robbyczgw-cla/Chameleon-AI-Chat) - Original project
-- [ClawHub](https://clawhub.ai) - Skill marketplace
-- [OpenClaw Docs](https://openclaw.com/docs) - Framework documentation
-
----
-
-**Built with 🦎 by the Chameleon community**
+Based on Chameleon AI Chat personas, adapted for OpenClaw (MIT).
