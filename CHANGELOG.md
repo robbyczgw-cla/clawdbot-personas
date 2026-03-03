@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.4] - 2026-03-03
+
+### Changed
+- Applied documentation/security wording cleanups and metadata sync.
+
+
 ## [2.2.3] - 2026-02-11
 
 ### Changed

@@ -1,6 +1,6 @@
 ---
 name: personas
-version: 2.2.6
+version: 2.2.4
 description: Transform into 20 specialized AI personalities on demand. Switch mid-conversation and load only the active persona.
 metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed."}}}
 triggers:
