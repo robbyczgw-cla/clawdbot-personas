@@ -58,3 +58,7 @@ What it does **not** do:
 ## License
 
 Based on Chameleon AI Chat personas, adapted for OpenClaw (MIT).
+
+## Download History
+
+[![Download History](https://skill-history.com/chart/robbyczgw-cla/personas.svg)](https://skill-history.com/robbyczgw-cla/personas)
