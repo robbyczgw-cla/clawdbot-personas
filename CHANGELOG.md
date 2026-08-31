@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.0] - 2026-08-31
+
+### Fixed
+- Corrected slash command in docs: `/personas` (derived from the `name` field). `/persona` does not exist in OpenClaw 2.0.
+
+### Changed
+- Documented how triggering works: OpenClaw 2.0 ignores the `triggers:`, `categories:`, and `personas:` frontmatter fields; matching happens on the phrases in the `description` field, and no separate trigger list registers commands.
+
 ## [2.2.4] - 2026-03-03
 
 ### Changed
